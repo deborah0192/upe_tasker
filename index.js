@@ -1,7 +1,4 @@
-/**
- * INFRASTRUCTURE BACK-END « UPE-TASKER » - CONTEXTE SERVEUR WEB
- * Université Privée de l'Estuaire - Module de Génie Logiciel
- */
+
 // INCLUSION DES MODULES VIA COMMONJS
 const express = require('express');
 const path = require('path');
@@ -24,13 +21,12 @@ app.get('/api/status', (requestClient, responseServeur) => {
 });
 // INITIATION ACTIVE DU PROCESSUS D'ÉCOUTE RESEAU
 app.listen(PORT_RESEAU, () => {
-console.log("====================================================================");
-    console.log(" UNIVERSITÉ PRIVÉE DE L'ESTUAIRE - INFRASTRUCTURE APPLICATIVE ALERTE");console.log("====================================================================");
+
+    
     console.log(` -> Serveur HTTP démarré avec succès sur l'environnement local.`);
-    console.log(` -> URL d'accès direct de l'application : http://localhost:$
-{PORT_RESEAU}`);
+    console.log(` -> URL d'accès direct de l'application : http://localhost:${PORT_RESEAU}`);
     console.log(" -> Surveillance de code active via Nodemon : Rechargement opérationnel.");
     console.log(" -> Pour interrompre le processus serveur, faites l'action : CTRL + C");
 
-console.log("==============================n======================================");
+
 });
