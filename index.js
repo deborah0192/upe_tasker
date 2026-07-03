@@ -32,5 +32,5 @@ console.log("===================================================================
     console.log(" -> Surveillance de code active via Nodemon : Rechargement opérationnel.");
     console.log(" -> Pour interrompre le processus serveur, faites l'action : CTRL + C");
 
-console.log("====================================================================");
+console.log("==============================n======================================");
 });
